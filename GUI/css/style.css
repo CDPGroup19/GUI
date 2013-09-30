@@ -1,0 +1,70 @@
+<!------------ GENERAL ----------->
+input.ui-text-input{
+	background-color: whitesmoke;
+	}
+	
+.ui-btn, .ui-btn-inner{
+	border-radius: 5px;
+	}
+	
+.ui-icon-menu-icon{
+	background-image: url("images/menu-icon.png");
+}
+.ui-header{
+	height: 50px;
+}
+
+.headerMenu a{
+	background: 0;
+	border: 0;
+	box-shadow: none;
+}
+
+.ui-footer{
+	position: absolute; 
+	bottom:0px; 
+	width: 100%;"
+}
+
+<!----------- Log in ------------->
+
+#loginSignup .ui-content img{
+	margin-left: auto;
+}
+
+#logoFront img{
+	margin-left: 70px;
+	margin-top: 100px;
+}
+
+#loginSignup .ui-footer .ui-btn{
+	width: 40%;
+	}
+
+
+
+
+<!----------- Sign up ------------>
+#confirmPassword{
+	margin-bottom: 100px;
+}
+ 
+#createAccountButton a{
+	bottom: 5px;
+}
+<!----------- User info ---------->
+
+#userinfo h3{
+	margin-bottom: 40px;
+	
+}
+
+#birthYear{
+	margin-bottom: 40px;
+}
+
+#travelcard{
+	margin-bottom:50px;
+}
+
+

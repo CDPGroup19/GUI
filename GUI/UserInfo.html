@@ -1,0 +1,109 @@
+
+<body>
+
+<div id="userinfo" data-role="page" data-theme="a">
+	<div class="headerMenu" data-role="header" data-theme="a">
+    <a style="background: 0;" href="#"class="showMenu">
+    	<img src="images/menu-icon.png"/>
+    </a>
+    
+	</div>
+    
+	<div data-role="content" data-theme="a">
+    	<h3>Please answer som questions about yourself:</h3>
+    
+	  	<div data-role="fieldcontain" id="gender" >
+            <fieldset data-role="controlgroup" data-type="horizontal">
+              <legend>Gender:</legend>
+              <input type="radio" name="Gender" id="male"  value="" />
+              <label for="male">Male</label>
+              <input type="radio" name="Gender" id="female" value="" />
+              <label for="female">Female</label>
+            </fieldset>
+      	</div>
+     	<div data-role="fieldcontain" >
+            <label for="birthyear" class="select">Birth year:</label>
+            <input type="month" name="month" value=""/>
+            <!--<select name="birthyear" id="birthyear" data-icon="arrow-d" type="year">
+              <option value="option1">Year of birth...</option>
+              <option value="option2">1989</option>
+              <option value="option3">1990</option>
+              <option value="option4">1991</option>
+            </select> -->
+        </div>
+	  	<div data-role="fieldcontain" id="travelcard">
+        	<div id="cardText" style="width:100%">
+          			<p>Do you have travelcard with Ruter?</p>
+          	</div>
+	    	<fieldset data-role="controlgroup" data-type="horizontal">
+                	<legend> </legend>
+               		<input type="radio" name="travelcard" id="travelcard_yes" value="" />
+                    <label for="travelcard_yes">yes</label>
+                    <input type="radio" name="travelcard" id="travelcard_no" value="" />
+                    <label for="travelcard_no">no</label>
+         		 
+        	</fieldset>
+      	</div>
+       
+	  	<div data-role="fieldcontain" >
+	    	<label for="residence" class="select">Residence:</label>
+	    	<select name="residence" id="residence">
+              <option value="Residence">Select residence...</option>
+              <option value="Oslo">Oslo</option>
+              <option value="Baerum">Baerum</option>
+              <option value="Asker">Asker</option>
+              <option value="Oppegaard">Oppegaard</option>
+        	</select>
+      	</div>
+        
+        <!-- Show only if Oslo is selected as residence -->
+	  	<div id="area-wrapper" style="display:none">
+        	<div data-role="fieldcontain">
+            	<label for="area" class="select">Administration area:</label>
+            	<select name="area" id="area">
+                  <option value="Area">Select area...</option>
+                  <option value="Alna">Alna</option>
+                  <option value="Bjerke">Bjerke</option>
+                  <option value="Frogner">Frogner</option>
+            	</select>
+          	</div>
+      	</div>
+        
+	  	<div data-role="fieldcontain" id="occupation">
+	    	<label for="occupation" class="select">Occupation:</label>
+	    	<select name="occupation" id="occupation">
+              <option value="Occupation">Select your occupation...</option>
+              <option value="Employed">Employed</option>
+              <option value="Retired">Retired</option>
+              <option value="Student">Student</option>
+              <option value="MilitaryService">Military service</option>
+              <option value="WorkingAtHome">Working at home</option>
+              <option value="NotWorking">Not working</option> 
+              <option value="Other">Other</option> 
+            </select>
+      	</div>
+        
+	  	<button id="CreateProfileButton" data-theme="d">Create profile</button>	 
+              
+	</div>
+</div>
+
+<!--
+<div class="menu" style="display: none" data-role="page" data-theme="a">
+	<div class="headerMenu" data-role="header" data-theme="a">
+    	<h1> </h1>
+	</div>
+    <div data-role="content" data-theme="a">
+    	<div data-role="controlgroup" data-type="vertical">
+            <a href="SignUp.html" data-role="button" data-theme="d">Button</a>
+            <a href="#" data-role="button" data-theme="d">Button</a>
+            <a href="#" data-role="button" data-theme="a">Button</a>
+            <a href="#" data-role="button" data-theme="a">Button</a>
+        </div>
+    </div>
+ 
+</div>
+
+    -->
+
+</body>

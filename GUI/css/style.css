@@ -68,3 +68,70 @@ input.ui-text-input{
 }
 
 
+<!------------ Tracking ---------->
+div#selectDestination{
+	width: 280px;
+	margin-right:auto;
+	margin-left:auto;
+}
+/*
+a.ui-btn{
+	border-radius: 100px;
+width: 147px;
+height: 147px;
+padding: 0px;
+border: none;
+}*/
+.startButton{
+	
+	margin-left: auto;
+	margin-right:auto;
+	background: url(../images/play.png) no-repeat center center !important;
+	border-radius: 100px;
+            width: 146px;
+            height: 146px;
+            padding: 0px;
+            border: none;
+}
+
+.stopButton{
+	width: 140px;
+	margin-left: auto;
+	margin-right:auto;
+	background: url(../images/stop.png) no-repeat center center !important;
+	border-radius: 100px;
+            width: 146px;
+            height: 146px;
+            padding: 0px;
+            border: none;
+}
+
+div#start .ui-btn-inner{
+	padding: 0;
+	border: 0;
+}
+
+div#stop .ui-btn-inner{
+	padding: 0;
+	border: 0;
+}
+
+div#start .ui-btn-up-a{
+	background:0;
+}
+div#stop .ui-btn-up-a{
+	background:0;
+}
+div#start{
+	width: 147px;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+div#stop{
+	width: 140px;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+

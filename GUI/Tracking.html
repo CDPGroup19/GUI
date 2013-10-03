@@ -26,6 +26,13 @@ $( document ).bind( "pageinit", function( event, data ) {
     });
 });
 </script>
+<script>
+$(document).on("pagebeforeshow", "#trackingContent", function(){
+	$("#start").on("click", function(){
+		$(this).toggleClass("stopButton");
+		});
+	});
+</script>
 </head>
 
 <body>
@@ -36,8 +43,17 @@ $( document ).bind( "pageinit", function( event, data ) {
         </a>
         
 	</div>
-    <div data-role="content" data-theme="a">
+    <div data-role="content" id="trackingContent" data-theme="a">
       	
+        
+    	
+      	<div id="start"class="startButton">
+      		<a data-role="button"></a>
+      	</div>
+        <div id="stop "class="stopButton">
+        	<a data-role="button"></a>
+        </div>
+    	
         <div id="selectDestination" data-role="fieldcontain" >
 	    	<!--<label for="destination" class="select"></label>-->
 	    	<select name="destination" id="destination">
@@ -51,28 +67,7 @@ $( document ).bind( "pageinit", function( event, data ) {
               <option value="Home">Home</option>
         	</select>
       	</div>
-    	
-      	<div id="start">
-      		<a data-role="button" 
-            style="border-radius: 100px;
-            width: 146px;
-            height: 146px;
-            padding: 0px;
-            border: none;">
-            	<img src="images/play.png"/>
-            </a>
-      	</div>
-        <div id="stop">
-        	<a data-role="button" 
-            style="border-radius: 100px;
-            width: 147px;
-            height: 147px;
-            padding: 0px;
-            border: none">
-				<img src="images/stop.png"/>
-            </a>
-        </div>
-    
+        
     </div>
 </div>
 </body>

@@ -121,7 +121,7 @@ div#trackingContent .ui-btn-inner{
 
 
 
-.stopButton .ui-btn-hover-a{
+#stop .ui-btn-hover-a{
 	background-image: url(../images/stop.png) !important;
 	border-radius: 100px;
             width: 146px;
@@ -168,6 +168,7 @@ div#start{
             padding: 0px;
             border: none;
 			box-shadow: none;
+			-webkit-transform: scale(0.7);
 }
 
 div#stop{
@@ -182,6 +183,30 @@ div#stop{
             padding: 0px;
             border: none;
 			box-shadow: none;
+			-webkit-transform: scale(0.7);
+			
 }
 
+
+/*---------------------------------
+			UPLOAD DELETE TRIP
+-----------------------------------*/
+#trackingList h1{
+	font-size: 20px;
+}
+li#buttons{
+	padding:0;
+}
+div#uploadDeleteButtons, ui-controlgroup-controls{
+	width:100%;
+	margin: 0 auto; 
+	bottom:0;
+	text-align:center;
+}
+a#save, a#delete{
+	width: 112px;
+	}
+a#upload{
+	width: 220px;
+	}
 

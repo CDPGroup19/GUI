@@ -42,24 +42,45 @@ $( document ).bind( "pageinit", function( event, data ) {
 	</div>
     
 	<div data-role="content" data-theme="a">
-    	<h3>Please answer som questions about yourself:</h3>
+    	<h3 style="font-weight: lighter;">Please answer som questions about yourself:</h3>
     
-	  	<div data-role="fieldcontain" id="gender" >
-            <fieldset data-role="controlgroup" data-type="horizontal">
+	  	<div data-role="fieldcontain"  >
+            <fieldset data-role="controlgroup" data-type="horizontal" id="gender">
               <legend>Gender:</legend>
               <input type="radio" name="Gender" id="male"  value="" />
               <label for="male">Male</label>
               <input type="radio" name="Gender" id="female" value="" />
               <label for="female">Female</label>
             </fieldset>
-      	</div>
-     	<div data-role="fieldcontain" >
+      
             <label for="birthyear" class="select">Birth year:</label>
             <select name="birthyear" id="birthyear" data-icon="arrow-d" type="year">
               <option value="option1">Year of birth...</option>
               <option value="option2">1989</option>
               <option value="option3">1990</option>
               <option value="option4">1991</option>
+            </select>
+        </div>
+        <div data-role="fieldcontain" >
+            <label for="maritalStatus" class="select">Marital status:</label>
+            <select name="maritalStatus" id="maritalStatus" data-icon="arrow-d" >
+              <option value="maritalStat">Marital status...</option>
+              <option value="notMarried">Not married</option>
+              <option value="married">Married</option>
+              <option value="devorced">Devorced</option>
+              <option value="partner">Partner</option>
+              <option value="widowed">Widowed</option>
+            </select>
+        
+            <label for="numChildren" class="select">Number of children:</label>
+            <select name="numChildren" id="numChildren" data-icon="arrow-d" >
+              <option value="numChildren">Number of children...</option>
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
             </select>
         </div>
 	  	<div data-role="fieldcontain" id="travelcard">
@@ -85,11 +106,11 @@ $( document ).bind( "pageinit", function( event, data ) {
               <option value="Asker">Asker</option>
               <option value="Oppegaard">Oppegaard</option>
         	</select>
-      	</div>
+      	
         
         <!-- Show only if Oslo is selected as residence -->
-	  	<div id="area-wrapper" style="display:none">
-        	<div data-role="fieldcontain">
+	  		<div id="area-wrapper" style="display:none">
+        	
             	<label for="area" class="select">Administration area:</label>
             	<select name="area" id="area">
                   <option value="Area">Select area...</option>

@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html> 
+<html>
 <head>
 <meta charset="UTF-8">
 <title>Manage Trips</title>
@@ -20,29 +20,36 @@
 
 <body>
 <!--- Header with blue background-->
-<div id="ManageTrips" data-role="page" data-theme="a">
+<div id="managetrips" data-role="page" data-theme="a">
     <div class="headerMenu" data-role="header" data-theme="a">
         <a style="background: 0; padding:0; margin: 5px;" href="#"class="showMenu">
             <img src="images/menu-icon.png"/>
         </a>
         
 	</div>
-    <div data-role="sidebar" data-theme="a" id="summary">
-		<div id="date">
+    <div data-role="content"data-theme="a" id="tripContent">
+		<div id="dateSide">
     		<h1>30.08.13</h1>
         	<p>12:53 - 13:36</p>
         </div>
-        <div id="duration">
+        <div id="durationSide">
         	<p>DURATION</p>
             <h1>43:08</h1>
        	</div>
-        <div id="length">
+        <div id="lengthSide">
         	<p>LENGTH</p>
             <h1>15,3 km</h1>
         </div>
+	</div>
+    <div data-role="content" id="bottomSummary">
+    	<ul data-role="listview" data-theme="a" id="bottomSummary">
+            <li><center><img src="images/buss.png" alt="buss"> Moholt - Torget</center></li>
+            <li><center><img src="images/walk.png" alt="walk">Torget - St. Olavs gt</center></li>
+            <li><center><img src="images/tram.png" alt="tram">St. Olavs gt - Lian</center></li>
+    	</ul>
+    </div>
 </div>
 
-
-</div>    
+    
 </body>
 </html>

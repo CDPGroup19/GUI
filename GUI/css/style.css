@@ -251,3 +251,42 @@ a#upload{
 	width: 150px;
 	}
 
+/*///////////////////////////////////
+			MANAGE TRIPS
+///////////////////////////////////*/
+div#managetrips .ui-content{
+	padding: 0;
+}
+div#dateSide{
+	margin:20px 10px 10px 30px;
+	float: none;
+	color:black;
+}
+div#durationSide{
+	margin:50px 10px 10px 30px;
+	float: none;
+	color:black;
+}
+div#lengthSide{
+	margin:50px 10px 10px 30px;
+	float: none;
+	color:black;
+}
+div#tripContent{
+	float:none;
+	border:none;
+}
+h1 {color:white;}
+
+div#bottomSummary{
+	float:none;
+	border:none;
+}
+div#tripList{
+	margin:20px 20px 20px 20px;
+}
+div#kart{
+	border:none;
+	float:right;
+}
+

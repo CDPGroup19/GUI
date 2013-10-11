@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<em><!DOCTYPE html> 
 <html>
 <head>
 <meta charset="UTF-8">
@@ -27,6 +27,7 @@
         </a>
         
 	</div>
+    <!---Numbers on the left side--->
     <div data-role="content"data-theme="a" id="tripContent">
 		<div id="dateSide">
     		<h1>30.08.13</h1>
@@ -41,15 +42,24 @@
             <h1>15,3 km</h1>
         </div>
 	</div>
-    <div data-role="content" id="bottomSummary">
-    	<ul data-role="listview" data-theme="a" id="bottomSummary">
-            <li><center><img src="images/buss.png" alt="buss"> Moholt - Torget</center></li>
-            <li><center><img src="images/walk.png" alt="walk">Torget - St. Olavs gt</center></li>
-            <li><center><img src="images/tram.png" alt="tram">St. Olavs gt - Lian</center></li>
-    	</ul>
+    <!---The map. Right now this is just a photo used to illustrate what we want with the view--->
+    <div data-role="content" data-theme="a" id="kart">
+    	<img src="images/mapwithflag.png">
+    </div>
+    <!---List at the bottom describing stops--->
+    <div data-role="content" data-theme="a"id="bottomSummary">
+        <div id="tripList">
+        	<p>Stops detected:<p>
+    		<ul data-role="listview" data-inset="true">
+            	<li>Moholt</li>
+            	<li>Torget</li>
+            	<li>St. Olavs gt</li>
+            	<li>Lian</li>
+    		</ul>
+        </div>
     </div>
 </div>
 
     
 </body>
-</html>
+</html></em>

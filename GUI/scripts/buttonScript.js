@@ -1,19 +1,18 @@
 
-$(document).bind('pageinit', "#tracking", function(){
-	var startButton = document.getElementById("start");
-	var stopButton = document.getElementById("stop");
+$( document ).bind( "pageinit", function( event, data ) {
+	var startButton = $("#start");
+	var stopButton = $("#stop");
 	
-	stopButton.style.display = "none";
+	stopButton.hide();
 
-	startButton.addEventListener('click',showStop, false);
-	stopButton.addEventListener('click',showStart, false);
+	startButton.click(function(){
+		stopButton.show();
+        startButton.hide();
+	});
 	
-	function showStop() {
-        stopButton.style.display ="block";
-        startButton.style.display = "none";
-	}
-	function showStart(){
-       startButton.style.display = "block";
-       stopButton.style.display = "none";
-	}
+	
+	stopButton.click(function(){
+		startButton.show();
+       	stopButton.hide();
+	});
 });

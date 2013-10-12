@@ -273,7 +273,7 @@ div#lengthSide{
 	color:black;
 }
 div#tripContent{
-	float:none;
+	float:left;
 	border:none;
 }
 h1 {color:white;}

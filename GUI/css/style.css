@@ -1,0 +1,302 @@
+/*//////////////////////////////////////
+				GENERAL 
+//////////////////////////////////////*/
+body{
+	min-height: 100%;
+}
+
+input.ui-text-input{
+	background-color: whitesmoke;
+	}
+	
+.ui-btn, .ui-btn-inner{
+	border-radius: 5px;
+	}
+	
+.headerMenu a{
+	background-image: url("images/menu-icon.png");
+}
+.ui-header{
+	height: 50px;
+}
+.ui-header .ui-btn-inner{
+	border: none;
+	padding: 0;
+}
+.ui-header .ui-btn{
+	box-shadow: none;
+	padding:0;
+}
+
+.ui-btn-right{
+	color:#ffffff;
+	border:0;
+	background:0;
+}
+
+.headerMenu a{
+	background: 0;
+	border: 0;
+	box-shadow: none;
+}
+
+
+.ui-footer{
+	position: absolute; 
+	bottom:0px; 
+	width: 100%;
+}
+
+
+/*//////////////////////////////////////
+				LOG IN 
+//////////////////////////////////////*/
+
+#loginSignup .ui-content img{
+	margin-left: auto;
+}
+
+#logoFront img{
+	margin-left: 70px;
+	margin-top: 100px;
+}
+
+#loginSignup .ui-footer .ui-btn{
+	width: 40%;
+	}
+
+
+
+
+/*//////////////////////////////////////
+				SIGN UP 
+//////////////////////////////////////*/
+#confirmPassword{
+	margin-bottom: 100px;
+}
+ 
+#createAccountButton a{
+	bottom: 5px;
+}
+/*//////////////////////////////////////
+				USER INFO 
+//////////////////////////////////////*/
+#userinfo h3{
+	margin-bottom: 40px;
+	
+}
+
+#birthYear{
+	margin-bottom: 40px;
+}
+
+#travelcard{
+	margin-bottom:20px;
+}
+#occupation{
+	margin-bottom:20px;
+}
+
+/*//////////////////////////////////////
+				TRACKING
+//////////////////////////////////////*/
+
+	
+div#selectDestination{
+	width: inherit;
+	margin: 0;
+}
+div#trackingContent .ui-btn-inner{
+	border:none;
+}
+div#tracking .ui-content{
+	padding: 0;
+}
+div#trackingButtons{
+	position: absolute;
+	z-index: 99;
+	
+	margin-left: auto;
+	margin-right:auto;
+	width: 300px;
+}
+div#start .ui-btn-down-a{
+	background-image: url(../images/play.png) !important;
+	border-radius: 100px;
+            width: 146px;
+            height: 146px;
+            padding: 0px;
+            border: none;
+
+}
+
+#stop .ui-btn-down-a{
+	background-image: url(../images/stop.png) !important;
+	border-radius: 100px;
+            width: 146px;
+            height: 146px;
+            padding: 0px;
+            border: none;
+}
+
+div#start .ui-btn-hover-a{
+	background-image: url(../images/play.png) !important;
+	border-radius: 100px;
+            width: 146px;
+            height: 146px;
+            padding: 0px;
+            border: none;
+}
+
+
+
+div#stop .ui-btn-hover-a{
+	background-image: url(../images/stop.png) !important;
+	border-radius: 100px;
+            width: 146px;
+            height: 146px;
+            padding: 0px;
+            border: none;
+}
+
+div#start .ui-btn-inner{
+	padding: 0;
+	border: 0;
+}
+div#start a{
+	height: inherit;
+	box-shadow: none;
+	border: none;
+	}
+	
+div#stop a{
+	height: inherit;
+	box-shadow: none;
+	border: none;
+	}
+div#stop .ui-btn-inner{
+	padding: 0;
+	border: 0;
+}
+
+div#start .ui-btn-up-a{
+	background:0;
+}
+div#stop .ui-btn-up-a{
+	background:0;
+}
+div#start{
+	margin-top: 200px;
+	background: transparent;
+	background-image: url(../images/play.png) !important;
+	border-radius: 100px;
+            width: 146px;
+            height: 146px;
+            padding: 0px;
+            border: none;
+			box-shadow: none;
+			-webkit-transform: scale(0.7);
+}
+
+div#stop{
+	margin-top: 200px;
+	background: transparent;
+	background-image: url(../images/stop.png) !important;
+	border-radius: 100px;
+            width: 146px;
+            height: 146px;
+            padding: 0px;
+            border: none;
+			box-shadow: none;
+			-webkit-transform: scale(0.7);
+			
+}
+
+div#durationLength{
+	/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0,0,0,0)), color-stop(1, rgba(0,0,0,1)));
+height: 120px;
+}
+div#durationLength h1{
+	font-size: 36px;
+	font-weight:lighter;
+	margin: 0;
+}
+div#durationLength p{
+	margin: 0;
+}
+div#duration{
+	margin:20px 10px 10px 20px;
+	float: left;
+}
+div#length{
+	margin:20px 10px 10px 20px;
+	float: right;
+}
+
+
+/*///////////////////////////////////
+			TRACKING LIST
+///////////////////////////////////*/
+#trackingList h1{
+	font-size: 20px;
+}
+li#buttons{
+	padding:0;
+}
+div#uploadDeleteButtons, ui-controlgroup-controls{
+	width:100%;
+	margin: 0 auto; 
+	bottom:0;
+	text-align:center;
+}
+a#save, a#delete{
+	width: 100px;
+	}
+a#upload{
+	width: 150px;
+	}
+
+/*///////////////////////////////////
+			MANAGE TRIPS
+///////////////////////////////////*/
+div#managetrips .ui-content{
+	padding: 0;
+}
+div#dateSide{
+	margin:20px 10px 10px 10px;
+	float: none;
+	color:black;
+}
+div#durationSide{
+	margin:20px 10px 10px 10px;
+	float: none;
+	color:black;
+}
+div#lengthSide{
+	margin:20px 10px 10px 10px;
+	float: none;
+	color:black;
+}
+div#tripContent{
+	float:left;
+	border:none;
+}
+h1 {color:white;}
+
+div#bottomSummary{
+	float:none;
+	border:none;
+}
+div#tripList{
+	margin:10px 10px 10px 10px;
+}
+div#kart{
+	border:none;
+	float:right;
+}
+div#addStops{
+	margin:10px 10px 10px 10px;
+	color: white;
+}
+

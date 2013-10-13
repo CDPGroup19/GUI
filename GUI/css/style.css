@@ -28,6 +28,12 @@ input.ui-text-input{
 	padding:0;
 }
 
+.ui-btn-right{
+	color:#ffffff;
+	border:0;
+	background:0;
+}
+
 .headerMenu a{
 	background: 0;
 	border: 0;

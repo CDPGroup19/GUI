@@ -14,10 +14,11 @@
 <script src="scripts/buttonScript.js" type="text/javascript"></script>
 <script src="scripts/mapTracking.js" type="text/javascript"></script>
 <script src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>
+<script src="scripts/deleteList.js" type="text/javascript"></script>
 </head>
 
 <body>
-<div id="menu">
+<!--<div id="menu">
   <h3>Menu</h3>
   <ul data-role="listview" data-inset="true">
     <li> Home</li>
@@ -25,16 +26,11 @@
     <li>Portfolio</li>
     <li>Contact</li>
   </ul>
-</div>
+</div>-->
 <!--- Header with blue background-->
 <div id="managetrips" data-role="page" data-theme="a">
-  <div class="headerMenu" data-role="header" data-theme="a">
-        <a style="background: 0; padding:0; margin: 5px;" href="#"class="showMenu">
-            <img src="images/menu-icon.png"/>
-        </a>
-  
+  <div class="headerMenu" data-role="header" data-theme="a"> <a style="background: 0; padding:0; margin: 5px;" href="#" class="showMenu"> <img src="images/menu-icon.png" alt="menu" /> </a> <a href="AddStop.html" data-role="button" data-theme="a" style="color:white">Add Stops</a>
     <h2>Manage Trips</h2>
-   
   </div>
   <div class="ui-grid-a"> 
     <!--Numbers on the left side-->
@@ -68,7 +64,6 @@
       </ul>
     </div>
   </div>
-</div>
 </div>
 </body>
 </html>

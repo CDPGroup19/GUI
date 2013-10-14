@@ -42,8 +42,10 @@ input.ui-text-input{
 
 
 .ui-footer{
-	position: absolute; 
-	bottom:0px; 
+	position:fixed; 
+	bottom:0px;
+	left:0;
+	right:0; 
 	width: 100%;
 	height:50px;
 }
@@ -304,9 +306,12 @@ div#addStops{
 	margin:10px 10px 10px 10px;
 	color: white;
 }
-
->>>>>>> a8c34e874fee4684d5c9d7a35d8c7c7e4fde2889
 div#right{
 	float:right;
 	text-align:right;
+}
+
+>>>>>>> a8c34e874fee4684d5c9d7a35d8c7c7e4fde2889
+
+
 }

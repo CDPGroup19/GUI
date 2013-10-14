@@ -120,8 +120,44 @@ div#trackingButtons{
 	margin-right:auto;
 	width: 300px;
 }
+div#start .ui-btn-down-a{
+	background-image: url(../images/play.png) !important;
+	border-radius: 100px;
+            width: 146px;
+            height: 146px;
+            padding: 0px;
+            border: none;
+
+}
+
+#stop .ui-btn-down-a{
+	background-image: url(../images/stop.png) !important;
+	border-radius: 100px;
+            width: 146px;
+            height: 146px;
+            padding: 0px;
+            border: none;
+}
+
+div#start .ui-btn-hover-a{
+	background-image: url(../images/play.png) !important;
+	border-radius: 100px;
+            width: 146px;
+            height: 146px;
+            padding: 0px;
+            border: none;
+}
 
 
+
+div#stop .ui-btn-hover-a{
+	background-image: url(../images/stop.png) !important;
+	border-radius: 100px;
+            width: 146px;
+            height: 146px;
+            padding: 0px;
+            border: none;
+}
 
 div#start .ui-btn-inner{
 	padding: 0;
@@ -150,13 +186,12 @@ div#stop .ui-btn-up-a{
 	background:0;
 }
 div#start{
-	
-	margin-top: 40%;
+	margin-top: 200px;
 	background: transparent;
 	background-image: url(../images/play.png) !important;
 	border-radius: 100px;
-            width: 140px;
-            height: 140px;
+            width: 146px;
+            height: 146px;
             padding: 0px;
             border: none;
 			box-shadow: none;
@@ -164,46 +199,23 @@ div#start{
 }
 
 div#stop{
-	
-	margin-top: 40%;
+	margin-top: 200px;
 	background: transparent;
 	background-image: url(../images/stop.png) !important;
 	border-radius: 100px;
-            width: 140px;
-            height: 140px;
+            width: 146px;
+            height: 146px;
             padding: 0px;
             border: none;
 			box-shadow: none;
 			-webkit-transform: scale(0.7);
 			
 }
-div#start .ui-btn-hover-a, div#start .ui-btn-down-a{
-	background-image: url(../images/play.png) !important;
-	border-radius: 100px;
-            width: 140px;
-            height: 140px;
-            padding: 0px;
-            border: none;
-}
-
-
-
-div#stop .ui-btn-hover-a, div#stop .ui-btn-down-a{
-	background-image: url(../images/stop.png) !important;
-	border-radius: 100px;
-            width: 140px;
-            height: 140px;
-            padding: 0px;
-            border: none;
-}
 
 div#durationLength{
 	/* Webkit (Safari/Chrome 10) */ 
-/*background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0,0,0,0)), color-stop(1, rgba(0,0,0,1)));
-height: 120px;*/
-position: absolute;
-z-index:99;
-width: 100%;
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0,0,0,0)), color-stop(1, rgba(0,0,0,1)));
+height: 120px;
 }
 div#durationLength h1{
 	font-size: 36px;
@@ -232,29 +244,19 @@ div#length{
 li#buttons{
 	padding:0;
 }
-div#uploadDeleteButtons, .ui-controlgroup-controls{
+div#uploadDeleteButtons, ui-controlgroup-controls{
 	width:100%;
 	margin: 0 auto; 
 	bottom:0;
 	text-align:center;
 }
 a#save, a#delete{
-	width: 30%;
+	width: 100px;
 	}
 a#upload{
-	width: 40%;
+	width: 150px;
 	}
-ul#trackingList p, ul#trackingList h1{
-	width: 65%;
-	float: left;
-}
 
-<<<<<<< HEAD
-ul#trackingList .ui-li-aside{
-	width: 30%;
-	float: right;
-}
-=======
 /*///////////////////////////////////
 			MANAGE TRIPS
 ///////////////////////////////////*/
@@ -298,4 +300,3 @@ div#addStops{
 	color: white;
 }
 
->>>>>>> a8c34e874fee4684d5c9d7a35d8c7c7e4fde2889

@@ -28,12 +28,6 @@ input.ui-text-input{
 	padding:0;
 }
 
-.ui-btn-right{
-	color:#ffffff;
-	border:0;
-	background:0;
-}
-
 .headerMenu a{
 	background: 0;
 	border: 0;
@@ -249,53 +243,7 @@ ul#trackingList p, ul#trackingList h1{
 	float: left;
 }
 
-<<<<<<< HEAD
 ul#trackingList .ui-li-aside{
 	width: 30%;
 	float: right;
 }
-=======
-/*///////////////////////////////////
-			MANAGE TRIPS
-///////////////////////////////////*/
-div#managetrips .ui-content{
-	padding: 0;
-}
-div#dateSide{
-	margin:20px 10px 10px 10px;
-	float: none;
-	color:black;
-}
-div#durationSide{
-	margin:20px 10px 10px 10px;
-	float: none;
-	color:black;
-}
-div#lengthSide{
-	margin:20px 10px 10px 10px;
-	float: none;
-	color:black;
-}
-div#tripContent{
-	float:left;
-	border:none;
-}
-h1 {color:white;}
-
-div#bottomSummary{
-	float:none;
-	border:none;
-}
-div#tripList{
-	margin:10px 10px 10px 10px;
-}
-div#kart{
-	border:none;
-	float:right;
-}
-div#addStops{
-	margin:10px 10px 10px 10px;
-	color: white;
-}
-
->>>>>>> a8c34e874fee4684d5c9d7a35d8c7c7e4fde2889

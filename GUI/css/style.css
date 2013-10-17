@@ -19,6 +19,9 @@ input.ui-text-input{
 .ui-header{
 	height: 50px;
 }
+.ui-header p{
+	text-align:center;
+}
 .ui-header .ui-btn-inner{
 	border: none;
 	padding: 0;
@@ -56,6 +59,19 @@ input.ui-text-input{
 	box-shadow:none;
 }
 
+div#menuButtons{
+	text-align:center;
+}
+div#mainmenu a{
+	background: none; 
+	width: 20%; 
+	border: 0; 
+	box-shadow: none;
+}
+div#mainmenu .ui-btn-inner{
+	border: 0;
+	box-shadow: none;
+}
 
 /*//////////////////////////////////////
 				LOG IN 
@@ -269,12 +285,12 @@ ul#trackingList p, ul#trackingList h1{
 	float: left;
 }
 
-<<<<<<< HEAD
+
 ul#trackingList .ui-li-aside{
 	width: 30%;
 	float: right;
 }
-=======
+
 /*///////////////////////////////////
 			MANAGE TRIPS
 ///////////////////////////////////*/
@@ -322,7 +338,4 @@ div#right{
 	text-align:right;
 }
 
->>>>>>> a8c34e874fee4684d5c9d7a35d8c7c7e4fde2889
 
-
-}

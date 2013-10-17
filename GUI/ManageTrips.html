@@ -18,7 +18,7 @@
 <!--- Header with blue background-->
 <div id="managetrips" data-role="page" data-theme="a">
   <div class="headerMenu" data-role="header" data-theme="a">
-    <h2>Manage Trips</h2>
+    <p>Manage Trips</p>
   </div>
   <div data-role="content">
     <div class="ui-grid-a"> 
@@ -66,15 +66,14 @@
         </div>
       </div>
     </div>
-    <div data-role="footer" data-theme="a" class="footerMenu">
-      <div data-role="navbar">
-        <ul>
-          <li><a href="#">Profile</a></li>
-          <li><a href="history.html">History</a></li>
-          <li><a href="Tracking.html">Tracking</a></li>
-          <li><a href="#">Achievements</a></li>
-        </ul>
+    <div id="mainmenu" data-role="footer" data-position="fixed" data-theme="a">
+      <div id="menuButtons"data-inline="true" data-type="horizontal">
+          <a href="#" data-role="button" data-inline="true"><img src="images/person.png"/></a>
+          <a href="#" data-role="button" data-inline="true"><img src="images/tracking.png"/></a>
+          <a href="#" data-role="button" data-inline="true"><img src="images/book.png"/></a>
+          <a href="#" data-role="button" data-inline="true"><img src="images/achievements.png"/></a>
       </div>
+    	
     </div>
   </div>
 </div>

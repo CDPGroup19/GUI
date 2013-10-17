@@ -40,16 +40,15 @@
             </div>
         </div>
         
-        <div id="trackingButtons" style="width:100%;">
-            
+        <div id="trackingButtons">
             <div id="start" >
                 <a id="startB"data-role="button" class="startStop"></a>
             </div>
             <div id="stop" >
-                <a href="#popupTrackingList" data-rel="popup" id="stopB" data-role="button" class="startStop"></a>
+                <a href="#popupTrackingList" id="stopB" data-role="button" class="startStop"></a>
             </div>
-            
-           	<div style="width:inherit;"id="selectDestination" data-role="fieldcontain" data-inset="false">
+        </div>
+        <div style="width:inherit;"id="selectDestination" data-role="fieldcontain" data-inset="false">
 	    	<!--<label for="destination" class="select"></label>-->
 	    	<select data-theme="g"style="width: 500px"name="destination" id="destination">
               <option value="Select">Select your destination...</option>
@@ -61,11 +60,11 @@
               <option value="Leisure">Leisure</option>
               <option value="Home">Home</option>
         	</select>
-            </div> 
+            
         </div>
-    	<div id="map">
+    	<div id="map" style="position: fixed; background-size:cover">
         </div>
-        <div data-role="popup" id="popupTrackingList">
+        <!--<div data-role="popup" id="popupTrackingList">
         <ul id="trackingList" data-role="listview" data-inset="true">
           	<li>
             	<div>20.10.13</div>
@@ -102,10 +101,12 @@
           		</div>
             </li>
           </ul>
-          </div>
+          </div>-->
     </div>
     <div data-role="footer" data-position="fixed" data-theme="a">
-    
+      <div data-inline="true" data-type="horizontal">
+      <a href="#" data-role="button" data-inline="true">Button</a><a href="#" data-role="button" data-inline="true">Button</a><a href="#" data-role="button" data-inline="true">Button</a><a href="#" data-role="button" data-inline="true">Button</a></div>
+    	
     </div>
 </div>
 

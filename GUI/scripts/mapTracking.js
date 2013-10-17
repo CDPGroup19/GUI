@@ -22,7 +22,8 @@ $(document).bind("pageinit", function(event, data){
 		disableDefaultUI: true,
 	  };
 	  var $content = $("#map");
-	  $content.height (screen.height - 50);
+	  $content.height (screen.height - 110);
+	  $content.width (screen.width);
 	  var map = new google.maps.Map ($content[0], options);
 	  $.mobile.changePage ($("#tracking"));
 	  
